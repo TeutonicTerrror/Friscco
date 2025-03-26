@@ -11,11 +11,21 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
-            background-color: #333;
+            background-color: #1a1a1a;
             color: white;
-            font-size: 2em;
-            font-family: Arial, sans-serif;
+            font-family: 'Poppins', sans-serif;
             text-align: center;
+            padding: 20px;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+        img {
+            max-width: 150px;
+            margin-bottom: 20px;
         }
         h1 {
             font-size: 2.5em;
@@ -24,12 +34,24 @@
         h2 {
             font-size: 1.5em;
             margin-bottom: 1em;
+            font-weight: 300;
+        }
+        .text {
+            font-size: 1.8em;
+            font-weight: bold;
+            background: linear-gradient(90deg, #ff8a00, #e52e71);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
     </style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Official Friscco Plaza Website</h1>
-    <h2>frisking you out of yo money!</h2>
-    <div>gib grade A+ plz</div>
+    <div class="container">
+        <img src="friscco.png" alt="Frisco Plaza Logo">
+        <h1>Official Friscco Plaza Website</h1>
+        <h2>frisking you out of yo money!</h2>
+        <div class="text">gib grade A+ plz</div>
+    </div>
 </body>
 </html>
